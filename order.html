@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- important to make website responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food order website</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--nav bar section starts here  -->
+    <section class="navbar">
+        <div class="container">
+           <div class="logo">
+           <img src="images/logo.jpg" alt="Logo" class="img-responsive">
+           </div>
+
+           <div class="menu text-right">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="categories.html">Categories</a>
+                </li>
+                <li>
+                    <a href="foods.html">Foods</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+           <div class="clearfix"></div>
+        </div>
+    </section>
+    <!--nav bar section ends here   -->
+
+    <!--food search section starts here   -->
+    <section class="food-search text-center">
+        <div class="container">
+
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+         
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/pizza.jpg" alt="chicken pizza" class="img-responsive img-curve">
+                     </div>
+
+                     <div class="food-menu-desc">
+                         <h4>Chicken pizza</h4>
+                         <p class="food-price">ksh400</p>
+                         <div class="order-label">Quantity</div>
+                         <input type="number" name="qty" class="input-responsive" value="1" required>
+                         
+                     </div>
+ 
+                 </fieldset>
+
+                 <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Shallon Said" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. +2547xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. sharlen@gmail.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+ 
+                
+         </div>
+    </section>
+    <!--food search section ends here   -->
+
+   
+    <!--social section starts here   -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluency/48/null/twitter.png"/></a>
+                </li>
+            </ul>
+         </div>
+    </section>
+    <!--social section ends here   -->
+
+    <!--footer section starts here   -->
+    <section class="footer">
+        <div class="container text-center">
+           <p>All rights reserved. Designed By <a href="#">Shallon Said</a></p>
+         </div>
+    </section>
+    <!--footer section ends here   -->
+</body>
+</html>
